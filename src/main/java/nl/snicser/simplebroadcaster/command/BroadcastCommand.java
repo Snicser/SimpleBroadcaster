@@ -33,8 +33,7 @@ public class BroadcastCommand implements CommandExecutor {
                     for (String arg : args) input.append(arg).append(" ");
 
                     Bukkit.getOnlinePlayers().forEach(onlinePlayers -> onlinePlayers.sendMessage(Constants.PREFIX + C.TAC(input.toString())));
-
-
+                    return true;
                 } else {
                     player.sendMessage(Constants.PREFIX + C.TAC("&fUse: &c/broadcast"));
                     return true;
