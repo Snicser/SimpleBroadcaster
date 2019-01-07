@@ -1,6 +1,11 @@
 # A simple configable broadcast plugin created by: Snicser
-
 # Config settings -  These are the default settings, you could change this settings in whatever you like.
-NO_PERMISSION: '&rYou do not have the permissions to excute this command.' #If the player has no permissions
-BROADCAST_PERMISSION: 'simplebroadcaster.use' #Broadcast permission
-PREFIX: '&f[&4&lBroadcast&f]&r ' #Broadcast prefix - example: [PREFIX] Message
+
+#If the player has no permissions to broadcast
+NO_PERMISSIONS: '&cYou do not have the permissions to excute this command.'
+
+#Broadcast command permission
+BROADCAST_PERMISSION: 'simplebroadcaster.use'
+
+#BroadcastCommand prefix - example: [PREFIX] Message
+PREFIX: '&f[&4&lBroadcast&r&f] &r'

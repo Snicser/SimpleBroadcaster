@@ -1,10 +1,10 @@
 name: SimpleBroadcaster
-version: 1.0.0
-main: me.snicser.simplebroadcaster.SimpleBroadcaster
+version: 2.0.0
+main: nl.snicser.simplebroadcaster.SimpleBroadcaster
 authors: [Snicser]
-description: An custom configable broadcaster
+description: An custom configable broadcast plugin
 
 commands:
   broadcast:
-    description: Broadcast a message
+    description: BroadcastCommand a message
     aliases: [bc]
